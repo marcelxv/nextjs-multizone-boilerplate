@@ -1,0 +1,14 @@
+{
+  "name": "@workspace/query",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "@tanstack/react-query-devtools": "^5.0.0",
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  }
+}

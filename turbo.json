@@ -1,0 +1,30 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "ui": "tui",
+  "tasks": {
+    "build": {
+      "dependsOn": [],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": [".next/**", "!.next/cache/**"]
+    },
+    "lint": {
+      "dependsOn": []
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "test": {
+      "dependsOn": ["@workspace/vitest-config#build"],
+      "outputs": ["coverage.json"]
+    },
+    "e2e": {
+      "dependsOn": ["build"],
+      "passThroughEnv": ["PLAYWRIGHT_*", "CI"]
+    },
+    "e2e:ui": {
+      "dependsOn": ["build"],
+      "passThroughEnv": ["PLAYWRIGHT_*", "CI"]
+    }
+  }
+}

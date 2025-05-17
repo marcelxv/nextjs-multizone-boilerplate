@@ -1,0 +1,11 @@
+{
+  "name": "@workspace/clients",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "js-cookie": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6"
+  }
+}
