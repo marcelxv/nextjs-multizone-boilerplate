@@ -1,16 +1,16 @@
-# 🌐 nextjs-multi-zone-microfrontend-boilerplate
+# 🌐 nextjs-multizone-boilerplate
 
 A modern, scalable, SEO-optimized **Next.js boilerplate** for building **multi-zone**, **microfrontend** applications with **SSR**, **i18n**, **TailwindCSS**, **shadcn/ui**, and more.
 
 > Created & maintained by **Sunil D**  
-> 📁 [Sample Repo](https://github.com/sunildandwate/nextjs-multi-zone-microfrontend-boilerplate)
+> 📁 [Sample Repo](https://github.com/sunild7/nextjs-multizone-boilerplate)
 
 ## 🚀 Quick Start
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/sunildandwate/nextjs-multi-zone-microfrontend-boilerplate.git
-cd nextjs-multi-zone-microfrontend-boilerplate
+git clone https://github.com/sunild7/nextjs-multizone-boilerplate.git
+cd nextjs-multizone-boilerplate
 ```
 
 2. **Install Dependencies**
