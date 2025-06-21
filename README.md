@@ -86,9 +86,8 @@ docker-compose up --build
 - [ ] Add user authentication (NextAuth/Clerk)
 - [ ] Add Storybook for UI components
 - [ ] Enable CI/CD pipelines
-- [ ] Add dark mode toggle
 - [ ] Integrate analytics + error tracking
-- [ ] Add dynamic module federation
+
 
 ## 📄 License
 
